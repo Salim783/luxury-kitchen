@@ -65,6 +65,16 @@ color: white;
     gap: 17px;
     align-items: center;
 }
+/* GENERAL */
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+/* Scroll bar custom */
+::-webkit-scrollbar-track {
+    background-color: #F5F5F5;
+}
 .boxfooter{
     display: flex;
     justify-content: space-around;
@@ -133,13 +143,25 @@ footer p{
     }
 }
 
-/********************************************************SECTION OFFER **************************************************************/
+::-webkit-scrollbar {
+    height: 9px;
+    background-color: #F5F5F5;
+}
 
-#promote-offer {
+::-webkit-scrollbar-thumb {
+    background-color: rgba(224, 43, 26, 0.83) ;
+    border-radius: 3px;
+}
+
+
+/********************************************************SECTION CARD-HOME **************************************************************/
+/* Part of Promote */
+#card-home {
     width: 100%;
     background-color: black;
+    padding: 0 15px;
 }
-#promote-offer h2{
+#card-home h2{
     color: white;
     padding: 0 15px; 
 }
@@ -147,7 +169,6 @@ footer p{
     width: 100%;
     display: flex;
     gap: 20px;
-    padding: 0 15px;
     box-sizing: border-box;
 }
 
@@ -160,11 +181,10 @@ footer p{
 .only-card-offer img {
     width: 100%;
     border-radius: 5px 5px 0px 0px;
-    ;
  
 }
 
-.text-offer-button{
+.text-offer-button {
     color: white;
     text-align: center;
     background-color: #595959;
@@ -177,20 +197,89 @@ footer p{
     gap: 15px;
     padding: 15px 0;
 }
-.text-offer-button h3{
+.text-offer-button h3 {
     margin: 0;
     font-size: 25px ;
 }
 
-.button-promot-offer{
+.button-promot-offer {
     width: 100%;
 }
-.button-promot-offer button{
+.button-promot-offer button {
     background-color: rgba(224, 43, 26, 0.83);
     width: 47%;
     color: white;
     font-size: 25px;
     border-radius: 4px;
     border: 1px solid  rgba(224, 43, 26, 0.83);
+}
+
+/* Part of Spotlight */
+
+.container-card-in-the-spotlight {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    padding: 0 15px;
+    box-sizing: border-box;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory
+
+
+}
+
+.only-card-in-the-spotlight {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 25%;
+    scroll-snap-align: start;
+}
+.only-card-in-the-spotlight img{
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.text-spotlight-button {
+    color: white;
+    text-align: center;
+    background-color: #595959;
+    margin: 0;
+    border-radius: 0px 0px 5px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+    padding: 15px 0;
+}
+.text-spotlight-button h3{
+    margin: 0;
+    font-size: 16px ;
+    width: 100%;
+}
+
+
+.button-spotlight {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.button-spotlight p{
+    font-size: 20px;
+}
+.button-spotlight button {
+    background-color: rgba(224, 43, 26, 0.83);
+    width: 47%;
+    color: white;
+    font-size: 19px;
+    border-radius: 4px;
+    border: 1px solid  rgba(224, 43, 26, 0.83);
+    height: 60%;
 }
 
