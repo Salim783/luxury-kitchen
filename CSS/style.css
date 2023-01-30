@@ -1,9 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .navli{
     display: flex;
-    gap: 10%;
+    justify-content: space-evenly;
     align-items: center;
+    list-style: none;
+}
+.navul{
+    width: 55%;
+}
+.titre{
+    width: 30%;
 }
 .nav{
     display: flex;
     align-items: center;
+    background-color: orangered;
+    height: 60px;
+}
+.iconsHeader{
+    width: 10%;
 }
