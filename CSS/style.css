@@ -15,7 +15,7 @@ header {
     align-items: center;
     background: linear-gradient(179.16deg, #E02B1A 16.46%, #1E1E1E 461%);
     height: 137px;
-}
+} 
 .navli{
 display: flex;
 justify-content: space-evenly;
