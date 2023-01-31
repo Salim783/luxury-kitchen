@@ -1,18 +1,17 @@
+/*********************HEADER***********************/
 *{
     margin: 0;
     padding: 0;
+}
+body{
+    background: #1E1E1E;
 }
 .navli{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     list-style: none;
-}
-.navul{
-    width: 55%;
-}
-.titre{
-    width: 30%;
+    color: white;
 }
 .nav{
     display: flex;
@@ -20,6 +19,14 @@
     background-color: orangered;
     height: 60px;
 }
+.navul{
+    width: 55%;
+}
+.titre{
+    width: 30%;
+    color: white;
+}
 .iconsHeader{
     width: 10%;
 }
+/****************************************************/
