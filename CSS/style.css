@@ -153,6 +153,56 @@ footer p{
     border-radius: 3px;
 }
 
+/********************************************************NAV - BAR **************************************************************/
+
+header {
+    padding-bottom: 40px;
+}
+
+/*********************HEADER***********************/
+header {
+    padding-bottom: 40px;
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    color: white;
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(179.16deg, #E02B1A 16.46%, #1E1E1E 461%);
+    height: 137px;
+    background: linear-gradient(179.16deg, #E02B1A 16.46%, #1E1E1E 461%);
+    height: 137px;
+} 
+.navli{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+list-style: none;
+color: white;
+}
+
+.navli li {
+    font-size: 23px;
+}
+.navul{
+    width: 55%;
+}
+.titre {
+    width: 30%;
+    color: white;
+}
+.iconsHeader {
+    width: 10%;
+    display: flex;
+    gap: 30px;
+}
+
 
 /********************************************************SECTION CARD-HOME **************************************************************/
 /* Part of Promote */
@@ -282,4 +332,269 @@ footer p{
     border: 1px solid  rgba(224, 43, 26, 0.83);
     height: 60%;
 }
+
+/********************************************************NEWS **************************************************************/
+
+
+.container-card-news-products {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    padding: 0 15px;
+    box-sizing: border-box;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory
+}
+
+.only-card-news {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 25%;
+    scroll-snap-align: start;
+}
+.only-card-news img {
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+}
+
+
+.text-news-button {
+    color: white;
+    text-align: center;
+    background-color: #595959;
+    margin: 0;
+    border-radius: 0px 0px 5px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+    padding: 15px 0;
+}
+
+.text-news-button h3{
+    margin: 0;
+    font-size: 16px ;
+    width: 100%;
+}
+
+.button-news{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.button-news p{
+    font-size: 20px;
+}
+.button-news button{
+    background-color: rgba(224, 43, 26, 0.83);
+    width: 47%;
+    color: white;
+    font-size: 19px;
+    border-radius: 4px;
+    border: 1px solid  rgba(224, 43, 26, 0.83);
+    height: 60%;
+}
+
+/********************************************************BASKET-PART **************************************************************/
+
+/* EMPTY-BASKET */
+.container-img-text img {
+    width: 30%;
+    color: white;
+}
+.container-img-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-button-basket{
+    text-align: center;
+    color: white;
+    font-size: 23px;
+}
+.text-button-basket button{
+    background-color: D9D9D9;
+    height: 34px;
+    width: 28%;
+    border-radius: 8px;
+    font-size: 22px;
+}
+
+/********************************************************PRODUCT DETAILS PART **************************************************************/
+
+.img-product img{
+    width: 100%;
+}
+.container-details {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 10pc;
+    padding-left: 31px;
+    box-sizing: border-box;
+}
+
+.text-container-p-d{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    gap: 33px;
+    color: white;
+}
+.text-container-p-d p{
+    width: 80%;
+}
+
+.livraison-img-p{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+}
+.livraison-img-p p{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.paragraph-img_product{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    width: 100%;
+}
+
+.prix-product{
+    text-align: end;
+}
+
+.button-details-product {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.button-details-product button{
+    background-color: rgba(224, 43, 26, 0.83);
+    width: 21%;
+    color: white;
+    font-size: 19px;
+    border-radius: 18px;
+    border: 1px solid  rgba(224, 43, 26, 0.83);
+    height: 60%;
+}
+
+.similar-offer{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.similar-offer main{
+    display: flex;
+    gap: 10px;
+    box-sizing: border-box;
+    padding: 0 15px;
+}
+
+
+/**********************PANIER**********************/
+.panier{
+    margin: 4% 0% 4% 4%;
+    color: white;
+}
+p{
+    color: white;
+}
+.imgPoele{
+    width: 25%;
+    margin-left: 20px;
+    margin-right: 20px; 
+    border-radius: 10px;
+}
+.poele{
+    display: flex;
+}
+.iconsCard{
+    display: flex;
+    justify-content: space-between;
+}
+.minibox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30%;
+}
+.produits{
+    white-space: pre-wrap;
+}
+.container{
+    display: flex;
+}
+
+
+
+/********************************************************FOOTER**************************************************************/
+
+.iconsHeader {
+    width: 10%;
+    display: flex;
+    gap: 30px;
+}
+
+.titre {
+    width: 30%;
+    color: white;
+}
+/************************FOOTER****************************/
+.boxtotal{
+    display: flex;
+}
+.foot{
+    display: flex;
+    gap: 17px;
+}
+.boxfooter{
+    display: flex;
+    justify-content: space-around;
+    height: 90%;
+}
+.Contact{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.decouverte{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.rejoignez{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    background: #121212;
+    height: 400px;
+}
+
+h2{
+    color: white;
+}
+h3{
+    color: white;
+}
+
 
