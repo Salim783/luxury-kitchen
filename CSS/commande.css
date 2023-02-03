@@ -1,0 +1,20 @@
+.bigbox{
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.contenair{
+    display: flex;
+    gap: 20px;
+    margin-left: 5%;
+}
+.txt{
+    color: white;
+}
+.choiceflex{
+    display: flex;
+    justify-content: space-between;
+}
+main h1{
+    color: white;
+}
