@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="/CSS/paiement.css">
     <title>Document</title>
 </head>
 <body>
@@ -27,14 +28,40 @@
             </div>
         </div>
     </header> 
-        <div>
-            <div>
+    <main class="container">
+        <div class="nomdecompte">
                 <h1>Ajoutez une méthode de paiement</h1>
-            </div>
-            <div>
-                <label for="">Nom de compte</label>
-            </div>
+                <h1>Nom de compte</h1>
         </div>
+             <input type="text" class="inputt" placeholder="Nom de la carte"/>
+             <input type="text" class="inputt" placeholder="Numéro de la carte"/>
+        <div class="dateexpiration">
+            <h1>Date d'expiration</h1>
+        </div>
+            <div class="boxflex">
+                    <select name="" class="inputt">
+                    <option value="01" class="selectt">01</option>
+                    <option value="02" class="selectt">02</option>
+                    <option value="03" class="selectt">03</option>
+                    <option value="04" class="selectt">04</option>
+                    </select>
+                <input type="text" class="inputt" placeholder="2023"/>
+            </div>    
+            <div class="codesecu"> 
+                <input type="text" class="inputt" placeholder="Code sécurité (CVV)"/>
+            </div>
+        <div class="radio">
+                <h2>Enregistrer pour mes prochains achats</h2>
+            <div>
+                <input type="radio" name="" id="">
+                <label for="">oui</label>
+                <input type="radio" name="" id="">
+                <label for="">non</label>
+            </div>
+
+        </div>
+        <button class="btn">validation de la commande </button>
+    </main>
     <footer>
         <div class="boxfooter">
             <div class="Contact">
