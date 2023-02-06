@@ -1,7 +1,8 @@
 .bigbox{
-    gap: 30px;
+    gap: 50px;
     display: flex;
     flex-direction: column;
+    margin-bottom: 20%;
 }
 .contenair{
     display: flex;
@@ -17,4 +18,15 @@
 }
 main h1{
     color: white;
+}
+main h2{
+    color: white;
+
+}
+.img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    gap: 30px;
 }

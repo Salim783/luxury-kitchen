@@ -6,6 +6,9 @@ body{
     background: #1E1E1E;
 }
 /*********************HEADER***********************/
+a{
+    text-decoration: none;
+}
 header {
     padding-bottom: 40px;
 }
@@ -33,6 +36,7 @@ color: white;
 .titre{
     width: 30%;
     color: white;
+    text-decoration: none;
 }
 .iconsHeader {
     width: 10%;
