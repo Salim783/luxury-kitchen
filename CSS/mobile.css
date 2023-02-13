@@ -1,0 +1,32 @@
+@media screen and (max-width:600px)  {
+    .container-card-promotion-offer{
+        width: 100%;
+        display: flex;
+        gap: 20px;
+        padding: 0 15px;
+        box-sizing: border-box;
+        overflow-x: scroll;
+        scroll-snap-type: x mandatory;
+    }
+    .only-card-offer{
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid black;
+        flex-grow: 1;
+        flex-shrink: 0;
+        flex-basis: 100%;
+        scroll-snap-align: start;
+    }
+    .only-card-in-the-spotlight {
+        flex-basis: 100%;
+    }
+    .only-card-news {
+        flex-basis: 100%;
+    }
+
+    .similar-offer main{
+        flex-wrap: wrap;
+    }
+
+}

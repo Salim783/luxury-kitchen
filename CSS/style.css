@@ -449,10 +449,13 @@ color: white;
 .text-container-p-d{
     display: flex;
     flex-direction: column;
-    font-size: 18px;
-    gap: 33px;
+    font-size: 21px;
+    gap: 22px;
     color: white;
+    width: 100%;
 }
+
+
 .text-container-p-d p{
     width: 80%;
 }
@@ -461,7 +464,7 @@ color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 80%;
+    width: 90%;
 }
 .livraison-img-p p{
     display: flex;
@@ -482,13 +485,13 @@ color: white;
 
 .button-details-product {
     display: flex;
-    gap: 15px;
-    justify-content: center;
+    gap: 100px;
+    box-sizing: border-box;
     align-items: center;
 }
 .button-details-product button{
     background-color: rgba(224, 43, 26, 0.83);
-    width: 21%;
+    width: 32%;
     color: white;
     font-size: 19px;
     border-radius: 18px;

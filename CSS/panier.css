@@ -1,36 +1,104 @@
 /**********************PANIER**********************/
-.panier{
-    margin: 4% 0% 4% 4%;
-    color: white;
-}
-p{
-    color: white;
-}
-.imgPoele{
-    width: 25%;
-    margin-left: 20px;
-    margin-right: 20px; 
-    border-radius: 10px;
-}
-.poele{
+section{
     display: flex;
+    width: 100%;
 }
-.iconsCard{
+.container-img-desc img{
+    width: 20%;
+}
+.container-img-desc{
     display: flex;
+    gap: 35px;
+}
+
+.container-card{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 1%;
+    padding-bottom: 90px;
+    width: 60%;
+}
+
+
+.container-icons-basket img{
+    width: 36%;
+}
+.container-icons-basket{
+    display: flex;
+    align-items: center;
     justify-content: space-between;
 }
-.minibox{
+
+.container-img-basket{
+    display: flex;
+    gap: 10px;
+}
+
+.container-t-icon{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 30%;
 }
-.produits{
-    white-space: pre-wrap;
+
+.total li{
+    list-style-type: none;
 }
-.container{
+.total {
+    font-size: 20px;
+}
+.total ul{
+    padding: 0;
     display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
+
+hr{
+    width: 80%;
+}
+.container-total-product-basket {
+    width: 50%;
+    border: 1px solid white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #595959;
+    height: 50%;
+    }
+    
+
+.basket-command{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+.basket-command:last-child{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+.basket-command:last-child button{
+    height: 38px;
+    width: 217px;
+    background-color: rgba(224, 43, 26, 0.83);
+    border-radius: 6px;
+}
+
+.Total-command{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 146px;
+}
+
+
 /***************FOOTER********************/
 .boxtotal{
     display: flex;

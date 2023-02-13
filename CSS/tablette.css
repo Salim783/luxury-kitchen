@@ -1,0 +1,57 @@
+@media screen and (min-width:600px) and (max-width:1024px) {
+    /* PROMOTE PART */
+    .text-offer-button h3 {
+        font-size: 15px;
+    }
+    .container-card-promotion-offer {
+        gap: 7px;
+    }
+    .button-promot-offer button {
+        width: 95%;
+    }
+
+
+    /* SPOTLIGHT PART */
+
+    .button-spotlight button {
+        width: 65%;
+        font-size: 14px;
+    }
+
+    /* news */
+    .button-news button {
+        width: 65%;
+        font-size: 14px;
+}
+/* Details product */
+
+    .button-details-product button {
+        width: 35%;
+        height: 45px;
+        font-size: 65%; 
+    }
+    .button-details-product {
+        justify-content: flex-start;
+        gap: 10%;
+    }
+
+    .similar-offer main{
+        flex-wrap: wrap;
+    }
+
+    .text-container-p-d p{
+        font-size: 60%;
+    }
+    .text-container-p-d h2{
+        font-size: 100%;
+    }
+
+    .text-container-p-d {
+        gap: 0;
+    }
+
+    .only-card-news{
+        flex-basis: 48%;
+    }
+
+}
