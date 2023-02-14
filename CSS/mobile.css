@@ -28,5 +28,62 @@
     .similar-offer main{
         flex-wrap: wrap;
     }
+    /* Panier */
+    .contain-bask{
+        flex-direction: column;
+        align-items: center;
+    }
 
+    .container-img-desc img {
+        width: 40%;
+    }
+
+    .container-card{
+        width: 100%;
+        padding-left: 4%  ;
+    }
+
+    .container-total-product-basket{
+        display: none;
+    }
+
+    .basket-command:last-child{
+        display: block;
+    }
+
+    .basket-command-d{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 7%;
+        gap: 35px;
+        
+    }
+    
+    .Total-command-d {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        font-size: 32px;
+        color: white;
+    }
+    .Total-command-d li{
+        list-style-type: none;
+    }
+
+    .basket-command-d button{
+        background-color: rgba(224, 43, 26, 0.83);
+        width: 100%;
+        color: white;
+        font-size: 30px;
+        border-radius: 18px;
+        border: 1px solid  rgba(224, 43, 26, 0.83);
+        height: 60px;
+    }
+
+    .container-card h1{
+        font-size: 37px;
+        text-align: center;
+    }
 }
