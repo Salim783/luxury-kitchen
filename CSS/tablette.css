@@ -17,6 +17,9 @@
         width: 65%;
         font-size: 14px;
     }
+    .text-spotlight-button h3 {
+        height: 19px;
+    }
 
     /* news */
     .button-news button {

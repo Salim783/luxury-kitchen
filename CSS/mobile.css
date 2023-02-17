@@ -82,8 +82,32 @@
         height: 60px;
     }
 
-    .container-card h1{
+    .container-card h1 {
         font-size: 37px;
         text-align: center;
+    }
+
+    /* details product */
+    .container-details{
+        flex-direction: column;
+        padding-left: 1%;
+    }
+
+    .text-container-p-d{
+    text-align: center;
+    align-items: center;
+    }
+
+    .text-container-p-d p {
+        width: 100%;
+    }
+
+    .button-details-product{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .button-details-product button{
+        width: 100%;
     }
 }

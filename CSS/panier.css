@@ -98,7 +98,9 @@ hr{
     gap: 146px;
 }
 
-
+.basket-command-d{
+    display: none;
+}
 /***************FOOTER********************/
 .boxtotal{
     display: flex;
